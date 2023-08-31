@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ua-acm/static/css/main.fae55178.css",
+    "main.js": "/ua-acm/static/js/main.1f5f10b4.js",
+    "static/media/vp.jpg": "/ua-acm/static/media/vp.4890fbcdda954ef660a5.jpg",
+    "static/media/Treasurer.jpg": "/ua-acm/static/media/Treasurer.f10f1c43f379cc7d293a.jpg",
+    "static/media/codingpic.png": "/ua-acm/static/media/codingpic.f1f868eb3d4598af8f80.png",
+    "static/media/about-us.png": "/ua-acm/static/media/about-us.a6a68f26236e48d0ad51.png",
+    "static/media/socialpic.png": "/ua-acm/static/media/socialpic.5f4d8b646306b9f431f0.png",
+    "static/media/profpic.png": "/ua-acm/static/media/profpic.fccb0637f517dcf10281.png",
+    "static/media/secretary.jpg": "/ua-acm/static/media/secretary.b6c80f220444fa444e88.jpg",
+    "static/media/president.jpg": "/ua-acm/static/media/president.83d9ee2032cd8b5050c4.jpg",
+    "static/media/ACM Logo.png": "/ua-acm/static/media/ACM Logo.374bc4d96fdec5e2f2cd.png",
+    "index.html": "/ua-acm/index.html",
+    "main.fae55178.css.map": "/ua-acm/static/css/main.fae55178.css.map",
+    "main.1f5f10b4.js.map": "/ua-acm/static/js/main.1f5f10b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae55178.css",
+    "static/js/main.1f5f10b4.js"
+  ]
+}

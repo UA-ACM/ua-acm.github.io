@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    background-color: rgb(191, 25, 25);
+}
+.header-1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.header-2 {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 0px;
+    color: rgb(255, 255, 255)
+}
+.header-container {
+    align-items: center;
+    padding-top: 50px;
+}
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.logo-container {
+    padding-top: 0px;
+    text-align: center;
+}

@@ -1,0 +1,222 @@
+html {
+    overflow-x: hidden;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    grid-gap: 2em;
+    background-color: rgb(223, 223, 223);
+}
+.about-section{
+    padding: 15px;
+}
+.professionalism-section{
+    padding: 15px;    
+}
+
+.coding-section{
+    padding: 15px;
+}
+.social-section{
+    padding: 15px;
+  
+}
+.about-header, .prof-header, .coding-header, .social-header{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(191, 25, 25);
+}
+
+.about-p, .prof-p, .coding-p, .social-p{
+    font-size: 20px;
+    color: gray;
+}
+
+.about-pic, .prof-pic, .coding-pic, .social-pic{
+    height: 19vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.officer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    background-color: rgba(191, 25, 25, 0.221);
+    border-top: 4px solid black;
+}
+h1.officer-header {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(191, 25, 25);
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+h1.officer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(191, 25, 25);
+
+}
+div.officer-grid > p{
+    grid-column: 2 / 3;
+    font-size: 24px;
+    color: rgb(191, 25, 25);
+    background-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0 1em;
+    margin: 0 1em;
+}
+#presbio{
+    padding: 3.2em 1em;
+}
+#vpbio{
+    padding: 4.9em 1em;
+}
+#secbio{
+    padding: 5.8em 1em;
+}
+#tresbio{
+    padding: 4.9em 1em;
+}
+.treasurer{
+    grid-column: 1 / 2;
+    margin: auto;
+    width: 35%;
+    height: auto;
+}
+.president{
+    grid-column: 1 / 2;
+    margin: auto;
+    height: auto;
+    width: 35%;
+}
+.secretary {
+    grid-column: 1 / 2;
+    margin: auto;
+    height: auto;
+    width: 35%;
+}
+.vp{
+    grid-column: 1 / 2;
+    margin: auto;
+    height: auto;
+    width: 35%;
+}
+
+.calendar{
+    background-color: rgb(223, 223, 223);
+    padding-bottom: 3em;
+    border-top: 4px solid black;
+}
+
+.calendar > h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(191, 25, 25);
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.2em;
+}
+iframe{
+    margin: 0 auto;
+    display: block;
+    width: 70vw;
+    height: 37vw;
+    padding-top: 0.5em;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(191, 25, 25, 0.221);
+    border-top: 4px solid black;
+}
+.presidentemail{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.secretaryemail{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.facultyemail{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.presidentemail, .secretaryemail, .facultyemail{
+    padding: 1em 0;
+    margin: auto;
+}
+footer > a:link{
+    color: black;
+}
+footer > h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0 auto;
+    padding: 0.25em 0;
+}
+
+footer > p{
+    text-align: center;
+    margin-block: 0;
+    padding: 1em 0;
+    grid-column: 1 / 2;
+}
+.liability{
+    font-size: 1.22em;
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+    margin: auto;
+    padding: 0.5em 1em;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+}
+.join-btn{
+    height: 50px;
+    width: 180px;
+    /* position: relative; */
+    color: rgb(191,25,25);
+    font-size: 20px;
+    font-weight: 700;
+    left: 340px;
+    top: 30px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+    background: white;
+    display: inline-block;
+    transition: 0.5s;
+    grid-column: 1 / 4;
+}
+.join-btn:hover{
+    opacity: 75%;
+    padding-right: 24px;
+    padding-left: 8px;
+    transition: 0.5s;
+}
+.join-btn:hover:after{
+    opacity:1;
+    right: 10px;
+    transition: 0.5s;
+
+}
+.join-btn:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 12px;
+    right: -20px;
+    transition: 0.5s;
+}
+

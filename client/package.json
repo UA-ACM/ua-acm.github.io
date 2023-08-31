@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://UA-ACM.github.io/ua-acm.github.io",
+  "homepage": "https://ua-acm.github.io/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

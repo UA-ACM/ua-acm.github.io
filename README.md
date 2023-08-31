@@ -1,1 +1,2 @@
-# ua-acm.github.io
+npm install
+npm start

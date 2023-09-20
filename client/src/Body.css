@@ -1,12 +1,25 @@
+
 html {
     overflow-x: hidden;
 }
 .grid-container{
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 50px;
     grid-gap: 2em;
     background-color: rgb(223, 223, 223);
+    
+}
+@media screen and (min-width: 768px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .grid-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 .about-section{
     padding: 15px;
@@ -34,7 +47,7 @@ html {
 }
 
 .about-pic, .prof-pic, .coding-pic, .social-pic{
-    height: 19vw;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;

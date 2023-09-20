@@ -30,6 +30,7 @@ html {
 
 .about-p, .prof-p, .coding-p, .social-p{
     font-size: 20px;
+    text-align: center;
     color: gray;
 }
 

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fae55178.css",
+    "main.css": "/static/css/main.a5d696bc.css",
     "main.js": "/static/js/main.245bf967.js",
     "static/media/vp.jpg": "/static/media/vp.4890fbcdda954ef660a5.jpg",
     "static/media/Treasurer.jpg": "/static/media/Treasurer.f10f1c43f379cc7d293a.jpg",
@@ -12,11 +12,11 @@
     "static/media/president.jpg": "/static/media/president.83d9ee2032cd8b5050c4.jpg",
     "static/media/ACM Logo.png": "/static/media/ACM Logo.374bc4d96fdec5e2f2cd.png",
     "index.html": "/index.html",
-    "main.fae55178.css.map": "/static/css/main.fae55178.css.map",
+    "main.a5d696bc.css.map": "/static/css/main.a5d696bc.css.map",
     "main.245bf967.js.map": "/static/js/main.245bf967.js.map"
   },
   "entrypoints": [
-    "static/css/main.fae55178.css",
+    "static/css/main.a5d696bc.css",
     "static/js/main.245bf967.js"
   ]
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Body.css"
-import aboutus from "./about-us.png"
-import profpic from "./profpic.png"
-import codingpic from "./codingpic.png"
-import socialpic from "./socialpic.png"
-import treasurer from "./Treasurer.jpg"
-import president from "./president.jpg"
-import secretary from "./secretary.jpg"
-import vp from "./vp.jpg"
+import aboutus from "./images/about-us.png"
+import profpic from "./images/profpic.png"
+import codingpic from "./images/codingpic.png"
+import socialpic from "./images/socialpic.png"
+import treasurer from "./images/Treasurer.jpg"
+import president from "./images/president.jpg"
+import secretary from "./images/secretary.jpg"
+import vp from "./images/vp.jpg"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails

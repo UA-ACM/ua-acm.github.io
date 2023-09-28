@@ -5,8 +5,8 @@
 }
 .header-1 {
     text-align: center;
-    font-size: 40px;
-    padding-top: 10px;
+    font-size: 3.5vw;
+    padding-top: 0.5vw;
     color: rgb(255, 255, 255);
 }
 .header-2 {
@@ -15,9 +15,13 @@
     padding-top: 0px;
     color: rgb(255, 255, 255)
 }
-.header-container {
-    align-items: center;
-    padding-top: 10px;
+@media screen and (max-width: 768px) {
+    .header-container {
+        width: 50%;
+        height: auto;
+        align-items: center;
+        padding-top: 10px;
+    }
 }
 .logo {
     height: 100%;

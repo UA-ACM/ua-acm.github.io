@@ -10,7 +10,7 @@
     color: rgb(255, 255, 255);
 }
 .header-2 {
-    font-size: 28px;
+    font-size: 2.25vw;
     text-align: center;
     padding-top: 0px;
     color: rgb(255, 255, 255)
@@ -20,7 +20,7 @@
         width: 50%;
         height: auto;
         align-items: center;
-        padding-top: 10px;
+        padding-top: 0px;
     }
 }
 .logo {

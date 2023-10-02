@@ -16,6 +16,11 @@ import vp from "./images/vp.jpg"
 export default function Body() {
   return (
     <>
+        <div className='tabs'>
+            <a href='#presbio'><button className='tabButton1'>ACM Women</button></a>
+            <a href='#vpbio'><button className='tabButton2'>Competitive Programming</button></a>
+            <a href='#secbio'><button className='tabButton1'>Web Development</button></a>
+        </div>
         <div className='grid-container'>
             <div className='about-section'>
             <img className='about-pic' src={aboutus} />

@@ -220,4 +220,13 @@ footer{
     right: -20px;
     transition: 0.5s;
 }
-
+.tabButton1{
+    background-color: rgb(191,25,25);
+    height:20px;
+    width:33.3333%;
+}
+.tabButton2{
+    background-color: rgb(191,25,25);
+    height:20px;
+    width:33.3334%;
+} 

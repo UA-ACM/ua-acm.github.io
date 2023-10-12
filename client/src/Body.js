@@ -7,7 +7,7 @@ import codingpic from "./images/codingpic.png"
 import socialpic from "./images/socialpic.png"
 import treasurer from "./images/Treasurer.jpg"
 import president from "./images/president.jpg"
-import secretary from "./images/secretary.png"
+import secretary from "./images/secretary.jpg"
 import vp from "./images/vp.jpg"
 
 //Bio for Faculty Advisor

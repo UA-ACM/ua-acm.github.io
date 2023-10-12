@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./Body.css"
 import aboutus from "./images/about-us.png"
@@ -16,7 +17,7 @@ import vp from "./images/vp.jpg"
 export default function Body() {
   return (
     <>
-        <div className='grid-container'>
+        <div className='general-info grid-container'>
             <div className='about-section'>
             <img className='about-pic' src={aboutus} />
                 <h3 className='about-header'>About Us</h3>
@@ -58,39 +59,54 @@ export default function Body() {
             
                 
         </div>
-        <div class="officer-grid">
+        <section class="officers">
             <h1 class='officer-header'>Officers</h1>
-            <h1 class='officer'>Daniel Tsark - President</h1>
-            <img class='president' src={president}/>
-            <p id="presbio">
-                Daniel Tsark, a junior from Chandler, Arizona, is pursuing a degree in cybersecurity. 
-                Daniel is involved in numerous extra-curricular organizations outside of ACM, 
-                with some of the most notable being his involvement in the Student Government Association, 
-                United Greek Council, and Theta Tau.
-            </p>
-            <h1 class='officer'>Angel Roa-Perez - Vice President</h1>
-            <img class='vp' src={vp}/>
-            <p id="vpbio">
-                Angel Roa-Perez, a sophomore from Tuscaloosa, Alabama, is pursuing a degree in Computer 
-                Engineering. Outside of his time with ACM, he is also occasionally involved with 
-                the UA Chess Club and plays Rec Soccer.
-            </p>
-            <h1 class='officer'>Liam Tucker - Secretary</h1>
-            <img class='secretary' src={secretary}/>
-            <p id="secbio">
-                Liam Tucker is a junior Computer Science major from Libertyville, IL. 
-                He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
-                Goodman Foundation dedicated  to promoting voting and eliminating barriers 
-                to voting on campus and beyond.
-            </p>
-            <h1 class='officer'>Casey Derringer - Treasurer</h1>
-            <img class='treasurer' src={treasurer}/>
-            <p id="tresbio">
-                Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
-                computer science. Along with serving as ACM Treasurer, he fences 
-                in the University of Alabama's fencing club, and is an active member in Theta Tau.
-            </p>
-        </div>
+            <div class="officer-grid grid-container">
+                <div class='president-box'>
+                    <h1 class='officer'>Daniel Tsark</h1>
+                    <h2>President</h2>
+                    <img class='president officer-img' src={president}/>
+                    <p id="bio">                    
+                            Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
+                            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
+                            with some of the most notable being his involvement in the Student Government Association, 
+                            United Greek Council, and Theta Tau.
+                    </p>
+                </div>
+
+                <div>
+                    <h1 class='officer'>Angel Roa-Perez</h1>
+                    <h2>Vice President</h2>
+                    <img class='vp officer-img' src={vp}/>
+                    <p id="bio">
+                        Angel Roa-Perez is a sophomore from Tuscaloosa, Alabama who is pursuing a degree in Computer 
+                        Engineering. Outside of his time with ACM, he is also occasionally involved with 
+                        the UA Chess Club and plays Rec Soccer.
+                    </p>
+                </div>
+                <div>
+                    <h1 class='officer'>Liam Tucker</h1>
+                    <h2>Secretary</h2>
+                    <img class='secretary officer-img' src={secretary}/>
+                    <p id="bio">
+                        Liam Tucker is a junior Computer Science major from Libertyville, IL. 
+                        He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
+                        Goodman Foundation dedicated  to promoting voting and eliminating barriers 
+                        to voting on campus and beyond.
+                    </p>
+                </div>
+                <div>
+                    <h1 class='officer'>Casey Derringer</h1>
+                    <h2>Treasurer</h2>
+                    <img class='treasurer officer-img' src={treasurer}/>
+                    <p id="bio">
+                        Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
+                        computer science. Along with serving as ACM Treasurer, he fences 
+                        in the University of Alabama's fencing club, and is an active member in Theta Tau.
+                    </p>
+                </div>
+            </div>
+        </section>
         <div class='calendar'>
             <h1>Events</h1>
             <div class='border'>
@@ -119,3 +135,4 @@ export default function Body() {
     </>
   )
 }
+

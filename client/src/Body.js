@@ -1,13 +1,14 @@
+
 import React from 'react'
 import "./Body.css"
-import aboutus from "./img/about-us.png"
-import profpic from "./img/profpic.png"
-import codingpic from "./img/codingpic.png"
-import socialpic from "./img/socialpic.png"
-import treasurer from "./img/Treasurer.jpg"
-import president from "./img/president.jpg"
-import secretary from "./img/secretary.png"
-import vp from "./img/vp.jpg"
+import aboutus from "./images/about-us.png"
+import profpic from "./images/profpic.png"
+import codingpic from "./images/codingpic.png"
+import socialpic from "./images/socialpic.png"
+import treasurer from "./images/Treasurer.jpg"
+import president from "./images/president.jpg"
+import secretary from "./images/secretary.png"
+import vp from "./images/vp.jpg"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -134,3 +135,4 @@ export default function Body() {
     </>
   )
 }
+

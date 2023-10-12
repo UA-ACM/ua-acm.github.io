@@ -1,6 +1,7 @@
+
 import React from 'react'
 import './Header.css'
-import logo from './img/ACM Logo.png'
+import logo from './images/ACM Logo.png'
 
 export default function Header() {
   return (

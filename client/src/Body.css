@@ -1,9 +1,13 @@
+
 :root{
     --header-red: rgb(191, 25, 25);
     --background-grey: rgb(223, 223, 223);
 }
 html {
     overflow-x: hidden;
+}
+body{
+    margin: 0;
 }
 h2{
     color: var(--header-red);

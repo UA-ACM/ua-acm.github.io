@@ -9,6 +9,8 @@ import treasurer from "./images/Treasurer.jpg"
 import president from "./images/president.jpg"
 import secretary from "./images/secretary.jpg"
 import vp from "./images/vp.jpg"
+import webdev from "./images/html5&css3.png"
+import shipt from "./images/shipt.png"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -107,13 +109,26 @@ export default function Body() {
                 </div>
             </div>
         </section>
-        <div class='calendar'>
-            <h1>Events</h1>
-            <div class='border'>
-            <iframe src="https://calendar.google.com/calendar/embed?src=vfgqdivlam7s8b
-            ai2q63c9bot8%40group.calendar.google.com&ctz=America%2FChicago" 
-            styles={"border: 4px solid black"} frameborder="0" scrolling="no"></iframe>
-            </div>
+        <div class='Events'>
+            <h1>Spring 2024 Events</h1>
+            <img src={webdev}/>
+            <dl>
+                <dt>January 23rd</dt>
+                <dd>Web Development Workshop</dd>
+                <dt>February 6th</dt>
+                <dd>Career Fair Prep</dd>
+                <dt>February 20th</dt>
+                <dd>Resume Workshop and Mock Technical Interviews</dd>
+                <dt>March 5th</dt>
+                <dd>Professor Research Presentation</dd>
+                <dt>March 19th</dt>
+                <dd>Crimson Defense Mixer</dd>
+                <dt>April 2nd</dt>
+                <dd>Company Talk (feat. Shipt)</dd>
+                <dt>April 16th</dt>
+                <dd>Movie Night (feat. The Social Network)</dd>
+            </dl>
+            <img src={shipt}/>
         </div>
         <footer>
             <p>Local ACM Chapter</p>

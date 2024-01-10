@@ -1,11 +1,19 @@
-
+@font-face{
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Black.ttf)
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url(fonts/Roboto/Roboto-Light.ttf)
+}
 
 :root{
     --header-red: rgb(191, 25, 25);
-    --background-grey: rgb(223, 223, 223);
+    --background-grey: rgb(247, 247, 247);
 }
 html {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     margin: 0;
@@ -25,37 +33,18 @@ h2{
     /* justify-content: center; */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 50px;
+    padding: 40px;
     grid-gap: 2em;
     justify-content: center;
     align-items: center;
     grid-template-rows: repeat(4, 1fr);
 }
-@media screen and (min-width: 768px) {
-    .grid-container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-@media screen and (min-width: 1400px) {
-    .grid-container{
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-/* .about-section{
-    padding: 15px;
-}
-.professionalism-section{
-    padding: 15px;    
+
+.about-section, .professionalism-section, .coding-section, .social-section{
+    width: 364px;
+    height: 616px;
 }
 
-.coding-section{
-    padding: 15px;
-}
-.social-section{
-    padding: 15px;
-  
-} */
 .about-header, .prof-header, .coding-header, .social-header{
     text-align: center;
     font-size: 30px;
@@ -64,20 +53,23 @@ h2{
 
 .about-p, .prof-p, .coding-p, .social-p{
     font-size: 20px;
-    color: gray;
+    color: rgba(0, 0, 0, 0.836);
     text-align: center;
+    font-family: 'Roboto-Light', sans-serif;
 }
 
 .about-pic, .prof-pic, .coding-pic, .social-pic{
     width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    border-radius: .5rem;
+    height: 364px;
+    width: 364px;
 }
 
 .officers{
     background-color: rgba(191, 25, 25, 0.221);
-    border-top: 4px solid black;
+    border-top: 3px solid black;
 }
 .officer-grid{
     justify-content: center;
@@ -85,7 +77,7 @@ h2{
     height: min-content;
     align-items: start;
 }
-.officer-grid>div{
+.officer-grid > div{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -119,6 +111,7 @@ div.officer-grid > * > p{
     /* align-content: center; */
     /* grid-column: 2 / 3; */
     display: flex;
+    font-family: 'Roboto-Light', sans-serif;
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
@@ -135,43 +128,50 @@ div.officer-grid > * > p{
 #bio{
     padding: 1em 1em;
 }
-/* #vpbio{
-    padding: 4.9em 1em;
-}
-#secbio{
-    padding: 5.8em 1em;
-}
-#tresbio{
-    padding: 4.9em 1em;
-} */
 
-.calendar{
-    background-color: var(--background-grey);
-    padding-bottom: 3em;
-    border-top: 4px solid black;
-}
-
-.calendar > h1{
+.Events{
     text-align: center;
-    font-size: 70px;
-    color: var(--header-red);
-    margin: auto;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0.2em;
+    background-color: var(--background-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 7vw;
 }
-iframe{
-    margin: 0 auto;
-    display: block;
-    width: 70vw;
-    height: 37vw;
+
+.Events > h1{
+    margin-top: 0;
     padding-top: 0.5em;
+    font-size: 48px;
+    width: 100%;
 }
+
+.Events > img{
+    width: 25%;
+    align-self: center;
+    border-radius: .5rem;
+}
+
+.Events > dl > dt {
+    font-size: 24px;
+}
+
+.Events > dl > dd{
+    margin-bottom: 1em;
+    margin: 0 0 1em 0;
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: rgba(191, 25, 25, 0.221);
-    border-top: 4px solid black;
+    border-top: 3px solid black;
 }
 .presidentemail{
     grid-column: 2 / 3;
@@ -204,6 +204,7 @@ footer > p{
     margin-block: 0;
     padding: 1em 0;
     grid-column: 1 / 2;
+    font-family: 'Roboto-Light';
 }
 .liability{
     font-size: 1.22em;
@@ -253,3 +254,15 @@ footer{
     transition: 0.5s;
 }
 
+@media screen and (min-width: 500px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .grid-container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+}

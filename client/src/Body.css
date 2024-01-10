@@ -254,13 +254,13 @@ footer{
     transition: 0.5s;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
     .grid-container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1366px) {
     .grid-container{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;

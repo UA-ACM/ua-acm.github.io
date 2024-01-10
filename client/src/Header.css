@@ -1,3 +1,5 @@
+
+
 .grid{
     display: grid;
     grid-template-columns: 20% 75%;
@@ -15,14 +17,6 @@
     padding-top: 0px;
     color: rgb(255, 255, 255)
 }
-@media screen and (max-width: 768px) {
-    .header-container {
-        width: 50%;
-        height: auto;
-        align-items: center;
-        padding-top: 0px;
-    }
-}
 .logo {
     height: 100%;
     width: 100%;
@@ -31,4 +25,23 @@
 .logo-container {
     padding-top: 0px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container{
+        height: auto;
+        align-items: center;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .header-1{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .header-2{
+        font-size: 3.2vw;
+    }
+    .logo{
+        width: 25vw;
+    }
 }

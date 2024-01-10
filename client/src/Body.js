@@ -21,7 +21,7 @@ export default function Body() {
     <>
         <div className='general-info grid-container'>
             <div className='about-section'>
-            <img className='about-pic' src={aboutus} />
+            <img className='about-pic' src={aboutus} alt="Competitive Programming Team"/>
                 <h3 className='about-header'>About Us</h3>
                 <p className='about-p'>
                 UA ACM is the leading Computer Science club here at The Capstone. 
@@ -31,7 +31,7 @@ export default function Body() {
             </div>
            
             <div className='professionalism-section'>
-            <img className='prof-pic' src={profpic} />
+            <img className='prof-pic' src={profpic} alt="Company Talk"/>
                 <h3 className='prof-header'>Professionalism</h3>
                 <p className='prof-p'>
                     Bringing in companies from across the country, we put you in touch with 
@@ -40,7 +40,7 @@ export default function Body() {
                 </p>
             </div>
             <div className='coding-section'>
-            <img className='coding-pic' src={codingpic} />
+            <img className='coding-pic' src={codingpic} alt="SERC Lecture Hall"/>
                 <h3 className='coding-header'>Coding</h3>
                 <p className='coding-p'>
                     Whether it be coding workshops, hackathon opportunities, or competitive programming competitions,
@@ -50,7 +50,7 @@ export default function Body() {
             </div>
           
             <div className='social-section'>
-            <img className='social-pic' src={socialpic} />
+            <img className='social-pic' src={socialpic} alt="Career Fair"/>
                 <h3 className='social-header'>Social</h3>
                 <p className='social-p'>
                     ACM puts you in touch with other Computer Science and Cybersecurity majors on
@@ -67,7 +67,7 @@ export default function Body() {
                 <div class='president-box'>
                     <h1 class='officer'>Daniel Tsark</h1>
                     <h2>President</h2>
-                    <img class='president officer-img' src={president}/>
+                    <img class='president officer-img' src={president} alt="President"/>
                     <p id="bio">                    
                             Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
                             Daniel is involved in numerous extra-curricular organizations outside of ACM, 
@@ -79,7 +79,7 @@ export default function Body() {
                 <div>
                     <h1 class='officer'>Angel Roa-Perez</h1>
                     <h2>Vice President</h2>
-                    <img class='vp officer-img' src={vp}/>
+                    <img class='vp officer-img' src={vp} alt="Angel"/>
                     <p id="bio">
                         Angel Roa-Perez is a sophomore from Tuscaloosa, Alabama who is pursuing a degree in Computer 
                         Engineering. Outside of his time with ACM, he is also occasionally involved with 
@@ -89,7 +89,7 @@ export default function Body() {
                 <div>
                     <h1 class='officer'>Liam Tucker</h1>
                     <h2>Secretary</h2>
-                    <img class='secretary officer-img' src={secretary}/>
+                    <img class='secretary officer-img' src={secretary} alt="Liam"/>
                     <p id="bio">
                         Liam Tucker is a junior Computer Science major from Libertyville, IL. 
                         He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
@@ -100,7 +100,7 @@ export default function Body() {
                 <div>
                     <h1 class='officer'>Casey Derringer</h1>
                     <h2>Treasurer</h2>
-                    <img class='treasurer officer-img' src={treasurer}/>
+                    <img class='treasurer officer-img' src={treasurer} alt="Casey"/>
                     <p id="bio">
                         Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
                         computer science. Along with serving as ACM Treasurer, he fences 
@@ -111,16 +111,16 @@ export default function Body() {
         </section>
         <div class='Events'>
             <h1>Spring 2024 Events</h1>
-            <img src={webdev}/>
+            <img src={webdev} alt="HTML&CSS Logos"/>
             <dl>
                 <dt>January 23rd</dt>
                 <dd>Web Development Workshop</dd>
                 <dt>February 6th</dt>
                 <dd>Career Fair Prep</dd>
                 <dt>February 20th</dt>
-                <dd>Resume Workshop and Mock Technical Interviews</dd>
-                <dt>March 5th</dt>
                 <dd>Professor Research Presentation</dd>
+                <dt>March 5th</dt>
+                <dd>Resume Workshop and Mock Technical Interviews</dd>
                 <dt>March 19th</dt>
                 <dd>Crimson Defense Mixer</dd>
                 <dt>April 2nd</dt>
@@ -128,7 +128,7 @@ export default function Body() {
                 <dt>April 16th</dt>
                 <dd>Movie Night (feat. The Social Network)</dd>
             </dl>
-            <img src={shipt}/>
+            <img src={shipt} alt="Shipt Logo"/>
         </div>
         <footer>
             <p>Local ACM Chapter</p>

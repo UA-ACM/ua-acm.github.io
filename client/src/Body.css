@@ -59,7 +59,6 @@ h2{
 }
 
 .about-pic, .prof-pic, .coding-pic, .social-pic{
-    width: 100%;
     display: block;
     margin: auto;
     border-radius: .5rem;

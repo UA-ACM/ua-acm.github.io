@@ -11,6 +11,7 @@ import liam from "./images/liam.jpg"
 import donovan from "./images/donovan.jpg"
 import webdev from "./images/html5&css3.png"
 import shipt from "./images/shipt.png"
+import christian from "./images/christian.jpg"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -110,21 +111,20 @@ export default function Body() {
                     <h2>Large Events Chair</h2>
                     <img class='president officer-img' src={daniel} alt="Large Events Chair"/>
                     <p id="bio">                    
-                            Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
-                            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
-                            with some of the most notable being his involvement in the Student Government Association, 
-                            United Greek Council, and Theta Tau.
+                        Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
+                        Daniel is involved in numerous extra-curricular organizations outside of ACM, 
+                        with some of the most notable being his involvement in the Student Government Association, 
+                        United Greek Council, and Theta Tau.
                     </p>
                 </div>
                 <div>
                     <h1 class='officer'>Christian Hirschey</h1>
                     <h2>Public Relations Chair</h2>
-                    <img class='president officer-img' src={daniel} alt="Public Relations Chair"/>
+                    <img class='president officer-img' src={christian} alt="Public Relations Chair"/>
                     <p id="bio">                    
-                            Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
-                            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
-                            with some of the most notable being his involvement in the Student Government Association, 
-                            United Greek Council, and Theta Tau.
+                        Christian Hirschey is a freshman from Holbrook, New York pursuing a degree in 
+                        Computer Science. Outside of ACM, Christian is a member of Competitive Programming 
+                        Club and Web Development Club, and plays snare drum for the Birmingham-based Alabama Pipes & Drums.
                     </p>
                 </div>
             </div>

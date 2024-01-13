@@ -5,12 +5,13 @@ import aboutus from "./images/about-us.png"
 import profpic from "./images/profpic.png"
 import codingpic from "./images/codingpic.png"
 import socialpic from "./images/socialpic.png"
-import treasurer from "./images/Treasurer.jpg"
-import president from "./images/president.jpg"
-import secretary from "./images/secretary.jpg"
-import vp from "./images/vp.jpg"
+import casey from "./images/casey.jpg"
+import daniel from "./images/daniel.jpg"
+import liam from "./images/liam.jpg"
+import donovan from "./images/donovan.jpg"
 import webdev from "./images/html5&css3.png"
 import shipt from "./images/shipt.png"
+import christian from "./images/christian.jpg"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -65,31 +66,29 @@ export default function Body() {
             <h1 class='officer-header'>Officers</h1>
             <div class="officer-grid grid-container">
                 <div class='president-box'>
-                    <h1 class='officer'>Daniel Tsark</h1>
+                    <h1 class='officer'>Casey Derringer</h1>
                     <h2>President</h2>
-                    <img class='president officer-img' src={president} alt="President"/>
+                    <img class='president officer-img' src={casey} alt="President"/>
                     <p id="bio">                    
-                            Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
-                            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
-                            with some of the most notable being his involvement in the Student Government Association, 
-                            United Greek Council, and Theta Tau.
+                        Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
+                        computer science. Along with serving as ACM Treasurer, he fences 
+                        in the University of Alabama's fencing club, and is an active member in Theta Tau.
                     </p>
                 </div>
-
                 <div>
-                    <h1 class='officer'>Angel Roa-Perez</h1>
+                    <h1 class='officer'>Donovan Kohler</h1>
                     <h2>Vice President</h2>
-                    <img class='vp officer-img' src={vp} alt="Angel"/>
+                    <img class='vp officer-img' src={donovan} alt="Vice-President"/>
                     <p id="bio">
-                        Angel Roa-Perez is a sophomore from Tuscaloosa, Alabama who is pursuing a degree in Computer 
-                        Engineering. Outside of his time with ACM, he is also occasionally involved with 
-                        the UA Chess Club and plays Rec Soccer.
+                        Donovan Kohler is a Junior Computer Science major in the AMP program from Pittsburgh, 
+                        PA. As well as his involvement in ACM, he is a member of the professional engineering fraternity, 
+                        Theta Tau.
                     </p>
                 </div>
                 <div>
-                    <h1 class='officer'>Liam Tucker</h1>
+                    <h1 class='officer'>Light Ruder</h1>
                     <h2>Secretary</h2>
-                    <img class='secretary officer-img' src={secretary} alt="Liam"/>
+                    <img class='secretary officer-img' src={liam} alt="Secretary"/>
                     <p id="bio">
                         Liam Tucker is a junior Computer Science major from Libertyville, IL. 
                         He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
@@ -98,13 +97,34 @@ export default function Body() {
                     </p>
                 </div>
                 <div>
-                    <h1 class='officer'>Casey Derringer</h1>
+                    <h1 class='officer'>Md Ubayeid Ullah</h1>
                     <h2>Treasurer</h2>
-                    <img class='treasurer officer-img' src={treasurer} alt="Casey"/>
+                    <img class='treasurer officer-img' src={casey} alt="Treasurer"/>
                     <p id="bio">
                         Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
                         computer science. Along with serving as ACM Treasurer, he fences 
                         in the University of Alabama's fencing club, and is an active member in Theta Tau.
+                    </p>
+                </div>
+                <div>
+                    <h1 class='officer'>Daniel Tsark</h1>
+                    <h2>Large Events Chair</h2>
+                    <img class='president officer-img' src={daniel} alt="Large Events Chair"/>
+                    <p id="bio">                    
+                        Daniel Tsark is a junior from Chandler, Arizona who is pursuing a degree in cybersecurity. 
+                        Daniel is involved in numerous extra-curricular organizations outside of ACM, 
+                        with some of the most notable being his involvement in the Student Government Association, 
+                        United Greek Council, and Theta Tau.
+                    </p>
+                </div>
+                <div>
+                    <h1 class='officer'>Christian Hirschey</h1>
+                    <h2>Public Relations Chair</h2>
+                    <img class='president officer-img' src={christian} alt="Public Relations Chair"/>
+                    <p id="bio">                    
+                        Christian Hirschey is a freshman from Holbrook, New York pursuing a degree in 
+                        Computer Science. Outside of ACM, Christian is a member of Competitive Programming 
+                        Club and Web Development Club, and plays snare drum for the Birmingham-based Alabama Pipes & Drums.
                     </p>
                 </div>
             </div>

@@ -174,17 +174,17 @@ footer {
 }
 .presidentemail{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 .secretaryemail{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-.facultyemail{
-    grid-column: 2 / 3;
     grid-row: 4 / 5;
 }
-.presidentemail, .secretaryemail, .facultyemail{
+.discord{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.presidentemail, .secretaryemail, .discord{
     padding: 1em 0;
     margin: auto;
 }
@@ -196,6 +196,11 @@ footer > h1 {
     grid-row: 1 / 2;
     margin: 0 auto;
     padding: 0.25em 0;
+    text-align: center;
+}
+
+footer > a{
+    text-align: center;
 }
 
 footer > p{
@@ -206,7 +211,7 @@ footer > p{
     font-family: 'Roboto-Light';
 }
 .liability{
-    font-size: 1.22em;
+    font-size: 0.85em;
     grid-column: 3 / 4;
     grid-row: 1 / 5;
     margin: auto;

@@ -103,9 +103,16 @@ img.officer-img{
     border-radius: .5rem;
     width: 100%;
     margin:0 0 20px 0;
-    
-    
+
 }
+img.le-officer-img{
+    grid-column: 2 / 3;
+}
+
+img.pr-officer-img{
+    grid-column: 3 / 4;
+}
+
 div.officer-grid > * > p{
     /* align-content: center; */
     /* grid-column: 2 / 3; */

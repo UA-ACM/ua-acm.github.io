@@ -108,8 +108,8 @@ export default function Body() {
                     <h2>Treasurer</h2>
                     <img class='treasurer officer-img' src={ubayeid} alt="Treasurer"/>
                     <p id="bio">
-                    Hi! My name is Ubayeid and I'm a junior studying Computer Science. 
-                    In my free time, I enjoy doing charity work, quizzes and reading global news!
+                        Md Ubayeid Ullah and I'm a junior studying Computer Science. 
+                        In my free time, I enjoy doing charity work, quizzes and reading global news!
                     </p>
                 </div>
                 <div>

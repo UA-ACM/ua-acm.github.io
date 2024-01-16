@@ -13,6 +13,7 @@ import webdev from "./images/html5&css3.png"
 import shipt from "./images/shipt.png"
 import christian from "./images/christian.jpg"
 import ubayeid from "./images/ubayeid.jpg"
+import light from "./images/light.png"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -89,12 +90,17 @@ export default function Body() {
                 <div>
                     <h1 class='officer'>Light Ruder</h1>
                     <h2>Secretary</h2>
-                    <img class='secretary officer-img' src={liam} alt="Secretary"/>
+                    <img class='secretary officer-img' src={light} alt="Secretary"/>
                     <p id="bio">
-                        Liam Tucker is a junior Computer Science major from Libertyville, IL. 
-                        He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
-                        Goodman Foundation dedicated  to promoting voting and eliminating barriers 
-                        to voting on campus and beyond.
+                        Light Ruder is a junior majoring in Cyber Security with a minor in Cyber Criminology and a focus on data forensics and 
+                        security analysis. He is currently an active member of 
+                        three organizations on campus, ACM as the Secretary, The Crimson Defense - Cyber Security Club as Social Media Manager, Director and 
+                        Founder of Project Crimson - UA's first Cyber Security Mentorship 
+                        Program which aims to grow aspiring cyber security professionals’ technical and soft skills by 
+                        way of teaching, active volunteer, and mentor in The UA High School Capture The Flag 
+                        Competition (UAHSCTF), and founding member, staff, and telecaster of The Crimson Crossover! 
+                        He is also a member of The NSSA chapter at The University of Alabama, and the 
+                        National Society of Collegiate Scholars (NSCS).
                     </p>
                 </div>
                 <div>

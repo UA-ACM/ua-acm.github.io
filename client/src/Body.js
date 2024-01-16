@@ -12,6 +12,8 @@ import donovan from "./images/donovan.jpg"
 import webdev from "./images/html5&css3.png"
 import shipt from "./images/shipt.png"
 import christian from "./images/christian.jpg"
+import ubayeid from "./images/ubayeid.jpg"
+import light from "./images/light.png"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -88,22 +90,26 @@ export default function Body() {
                 <div>
                     <h1 class='officer'>Light Ruder</h1>
                     <h2>Secretary</h2>
-                    <img class='secretary officer-img' src={liam} alt="Secretary"/>
+                    <img class='secretary officer-img' src={light} alt="Secretary"/>
                     <p id="bio">
-                        Liam Tucker is a junior Computer Science major from Libertyville, IL. 
-                        He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
-                        Goodman Foundation dedicated  to promoting voting and eliminating barriers 
-                        to voting on campus and beyond.
+                        Light Ruder is a junior majoring in Cyber Security with a minor in Cyber Criminology and a focus on data forensics and 
+                        security analysis. He is currently an active member of 
+                        three organizations on campus, ACM as the Secretary, The Crimson Defense - Cyber Security Club as Social Media Manager, Director and 
+                        Founder of Project Crimson - UA's first Cyber Security Mentorship 
+                        Program which aims to grow aspiring cyber security professionals’ technical and soft skills by 
+                        way of teaching, active volunteer, and mentor in The UA High School Capture The Flag 
+                        Competition (UAHSCTF), and founding member, staff, and telecaster of The Crimson Crossover! 
+                        He is also a member of The NSSA chapter at The University of Alabama, and the 
+                        National Society of Collegiate Scholars (NSCS).
                     </p>
                 </div>
                 <div>
                     <h1 class='officer'>Md Ubayeid Ullah</h1>
                     <h2>Treasurer</h2>
-                    <img class='treasurer officer-img' src={casey} alt="Treasurer"/>
+                    <img class='treasurer officer-img' src={ubayeid} alt="Treasurer"/>
                     <p id="bio">
-                        Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
-                        computer science. Along with serving as ACM Treasurer, he fences 
-                        in the University of Alabama's fencing club, and is an active member in Theta Tau.
+                    Hi! My name is Ubayeid and I'm a junior studying Computer Science. 
+                    In my free time, I enjoy doing charity work, quizzes and reading global news!
                     </p>
                 </div>
                 <div>
@@ -156,9 +162,9 @@ export default function Body() {
             <p>Box 870290</p>
             <p>Tuscaloosa, Alabama, 35487</p>
             <h1>Contact Us!</h1>
+            <a class='discord' href="https://discord.gg/9j6JfeuN29">Join Our Discord!</a>
             <a class='presidentemail' href="mailto: acmpresident@ua.edu">Email ACM President</a>
             <a class='secretaryemail' href="mailto: acmsecretary@ua.edu">Email ACM Secretary</a>
-            <a class='facultyemail' href="mailto: anderson@cs.ua.edu">Email Faculty Advisor</a>
             <p class='liability'>
             <i>The views, opinions, and conclusions expressed in this page are those of the author or 
             organization and not necessarily those of The University of Alabama or its officers and 

@@ -272,13 +272,21 @@ footer{
     }
 }
 @media screen and (min-width: 1200px) {
-    .grid-container{
+    .officer-grid{
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .general-info{
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
 }
 @media screen and (min-width: 1600px) {
-    .grid-container{
+    .officer-grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .general-info{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
     }

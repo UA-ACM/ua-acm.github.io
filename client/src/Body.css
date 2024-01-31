@@ -314,3 +314,13 @@ footer{
         grid-template-rows: 1fr;
     }
 }
+@media screen and (min-width: 2400px) {
+    .officer-grid{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .general-info{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+}

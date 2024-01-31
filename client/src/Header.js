@@ -2,12 +2,13 @@
 import React from 'react'
 import './Header.css'
 import logo from './images/ACM Logo.png'
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
     <div className='grid'>
         <div className='logo-container'>
-            <img className='logo' src={logo} alt='logo' />
+            <NavLink to='/'><img className='logo' src={logo} alt='logo' /></NavLink>
         </div>
         <div className='header-container'>
             <h1 className='header-1'>

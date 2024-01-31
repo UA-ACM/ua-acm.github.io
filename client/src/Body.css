@@ -265,6 +265,11 @@ footer{
     transition: 0.5s;
 }
 
+.general-info{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+}
+
 @media screen and (min-width: 600px) {
     .grid-container{
         grid-template-columns: 1fr 1fr;

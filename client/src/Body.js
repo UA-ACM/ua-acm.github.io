@@ -14,6 +14,7 @@ import shipt from "./images/shipt.png"
 import christian from "./images/christian.jpg"
 import ubayeid from "./images/ubayeid.jpg"
 import light from "./images/light.png"
+import discord_icon from './images/discord-icon.svg'
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -23,8 +24,9 @@ export default function Body() {
   return (
     <>
         <div className='general-info grid-container'>
+    
             <div className='about-section'>
-            <img className='about-pic' src={aboutus} alt="Competitive Programming Team"/>
+                <img className='about-pic' src={aboutus} alt="Competitive Programming Team"/>
                 <h3 className='about-header'>About Us</h3>
                 <p className='about-p'>
                 UA ACM is the leading Computer Science club here at The Capstone. 
@@ -173,6 +175,12 @@ export default function Body() {
             </p>
             {/* <button className='join-btn'>Register Now</button> */} 
         </footer>
+        <a href='https://discord.gg/9j6JfeuN29' target="_blank" >
+            <button className='discord-button' aria-expanded="false" id="menu-trigger">
+                <object data={discord_icon} alt='discord icon' width='50' height='50' ></object>
+                <p className='discord-button-text'>Join our Discord!</p>
+            </button>
+        </a>
     </>
   )
 }

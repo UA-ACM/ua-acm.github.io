@@ -9,6 +9,7 @@
 
 :root{
     --header-red: rgb(191, 25, 25);
+    --hovered-red: rgb(210, 80, 80);
     --background-grey: rgb(247, 247, 247);
 }
 html {
@@ -25,6 +26,33 @@ h2{
     margin-bottom: .8em;
     text-align: center;
 
+}
+button{
+    width: 70px;
+    height: 70px;
+    transition:all 0.2s ease;
+    cursor: pointer;
+}
+.discord-button{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    padding: 8px;
+    border-width: 0;
+    align-items: center;
+    border-radius: 60px;
+    background-color: var(--header-red);
+    
+}
+.discord-button-text{
+    color: white;
+    padding: 20px 0px 20px 0px; 
+}
+.discord-button:hover{
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--hovered-red);
+    display: flex
 }
 .general-info{
     background-color: var(--background-grey);

@@ -3,6 +3,7 @@ import React from 'react'
 import './Header.css'
 import logo from './images/ACM Logo.png'
 import { NavLink } from 'react-router-dom';
+import CrimsonCrossoverLogo from "./images/CrimsonCrossoverLogo.webp";
 
 export default function Header() {
   return (
@@ -17,6 +18,9 @@ export default function Header() {
             <h2 className='header-2'>
                 The #1 Professional Organization for Computer Science Students
             </h2>
+        </div>
+        <div className='logo-container'>
+            <NavLink to='/CrimsonCrossover'><img className = "logo2" src={CrimsonCrossoverLogo}/></NavLink>
         </div>
     </div>
   );

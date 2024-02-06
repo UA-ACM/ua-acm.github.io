@@ -12,10 +12,12 @@ export default function CrimsonPage() {
         <p>
             The Crimson Crossover powered by Camgian is a first-of-its-kind hybrid computing competition.
             
-            <br>Equal parts Capture-The-Flag and Competitive Programming, aims to introduce students
+            <br></br>
+            
+            Equal parts Capture-The-Flag and Competitive Programming, aims to introduce students
             in The College of Engineering to different facets of computing. Teaching Cybersecurity concepts
             along with quick and adaptive problem-solving, the Crimson Crossover powered by Camgian is a fun 
-            and exciting experience for everyone involved.</br>
+            and exciting experience for everyone involved.
 
             <br></br>
         </p>

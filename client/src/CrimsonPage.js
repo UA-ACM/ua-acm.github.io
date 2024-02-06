@@ -20,8 +20,25 @@ export default function CrimsonPage() {
             and exciting experience for everyone involved.
 
             <br></br>
+
         </p>
+
+        <h2>When and Where?</h2>
+
+        <p>
+            The event will be taking place on March 23rd, on the University of Alabama's campus in Russell Hall 159
+            starting at 1PM and lasting until about 4PM!
+        </p>
+
+        <h2>How can I be involved?</h2>
         
+        <p>
+            Even if you're not competing, there's still plenty for Crimson Crossover to offer from attendance.
+            We will have representatives from sponsoring companies tabling so you can learn about their career
+            opportunities. In addition, there will be spectator focused competitions with prizes for anyone participating,
+            and a learning-focused approach to commentating the event.
+        </p>
+
         </>
     )
 }

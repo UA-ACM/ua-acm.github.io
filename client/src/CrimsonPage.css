@@ -37,6 +37,7 @@ section > p{
     border-radius: 8px;
     width: 75vw;
     margin-bottom: 0.5em;
+    padding: 0.5em;
 }
 
 section > footer{

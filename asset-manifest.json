@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a777d320.css",
-    "main.js": "/static/js/main.6fd53bf5.js",
+    "main.css": "/static/css/main.9ac17bee.css",
+    "main.js": "/static/js/main.eb615299.js",
     "static/media/codingpic.png": "/static/media/codingpic.f1f868eb3d4598af8f80.png",
     "static/media/about-us.png": "/static/media/about-us.a6a68f26236e48d0ad51.png",
     "static/media/socialpic.png": "/static/media/socialpic.5f4d8b646306b9f431f0.png",
@@ -10,20 +10,23 @@
     "static/media/casey.jpg": "/static/media/casey.29d66584b034661b3776.jpg",
     "static/media/christian.jpg": "/static/media/christian.482393c41308d22ebb96.jpg",
     "static/media/daniel.jpg": "/static/media/daniel.f8e98f4942cf63966ea8.jpg",
-    "static/media/liam.jpg": "/static/media/liam.e58ab908df3acfe3e849.jpg",
     "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
     "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "static/media/donovan.jpg": "/static/media/donovan.138865438cc5a251f84a.jpg",
     "static/media/ubayeid.jpg": "/static/media/ubayeid.292ce2c9c8daa57436f4.jpg",
-    "static/media/html5&css3.png": "/static/media/html5&css3.ae33b1f5fae7e10423be.png",
+    "static/media/shipt.png": "/static/media/shipt.8f272f95ce7254092495.png",
+    "static/media/CrimsonDefenseLogo.png": "/static/media/CrimsonDefenseLogo.d1e08412c0ea833d7b95.png",
+    "static/media/ACM-RED-BACKGROUND.png": "/static/media/ACM-RED-BACKGROUND.f4f9fa07986c09a13f64.png",
+    "static/media/html5&css3.png": "/static/media/html5&css3.8f93081a186d497e66e0.png",
     "static/media/ACM Logo.png": "/static/media/ACM Logo.374bc4d96fdec5e2f2cd.png",
+    "static/media/CrimsonCrossoverLogo.webp": "/static/media/CrimsonCrossoverLogo.19b90d9efb52747cc263.webp",
     "static/media/discord-icon.svg": "/static/media/discord-icon.2fad61000aa762270e2aa34e5743846d.svg",
     "index.html": "/index.html",
-    "main.a777d320.css.map": "/static/css/main.a777d320.css.map",
-    "main.6fd53bf5.js.map": "/static/js/main.6fd53bf5.js.map"
+    "main.9ac17bee.css.map": "/static/css/main.9ac17bee.css.map",
+    "main.eb615299.js.map": "/static/js/main.eb615299.js.map"
   },
   "entrypoints": [
-    "static/css/main.a777d320.css",
-    "static/js/main.6fd53bf5.js"
+    "static/css/main.9ac17bee.css",
+    "static/js/main.eb615299.js"
   ]
 }

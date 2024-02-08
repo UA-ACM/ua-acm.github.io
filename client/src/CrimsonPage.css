@@ -1,0 +1,46 @@
+
+
+:root{
+    --header-red: rgb(191, 25, 25);
+    --hovered-red: rgb(210, 80, 80);
+    --background-grey: rgb(247, 247, 247);
+}
+
+html{
+    background-color: var(--background-grey);
+}
+
+section > img{
+    width: 25vw;
+    padding-left: 17%;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+section > h2{
+    margin-bottom: 0.25em;
+}
+
+section > h1{
+    font-size: 2em;
+}
+
+section > p{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-radius: 8px;
+    width: 75vw;
+    margin-bottom: 0.5em;
+}
+
+section > footer{
+    background-color: rgba(191, 25, 25, 0.221);
+    height: 10vh;
+    border-top: 3px solid black;
+}

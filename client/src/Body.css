@@ -209,15 +209,11 @@ footer {
 }
 .presidentemail{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
 }
 .secretaryemail{
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
-.discord{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 .presidentemail, .secretaryemail, .discord{
     padding: 1em 0;
@@ -331,6 +327,10 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
+    .about-section, .professionalism-section, .coding-section, .social-section{
+        margin: auto;
+    }
+
 }
 @media screen and (min-width: 1600px) {
     .officer-grid{

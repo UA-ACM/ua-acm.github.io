@@ -7,7 +7,6 @@ import codingpic from "./images/codingpic.png"
 import socialpic from "./images/socialpic.png"
 import casey from "./images/casey.jpg"
 import daniel from "./images/daniel.jpg"
-import liam from "./images/liam.jpg"
 import donovan from "./images/donovan.jpg"
 import webdev from "./images/html5&css3.png"
 import shipt from "./images/shipt.png"
@@ -164,7 +163,6 @@ export default function Body() {
             <p>Box 870290</p>
             <p>Tuscaloosa, Alabama, 35487</p>
             <h1>Contact Us!</h1>
-            <a class='discord' href="https://discord.gg/9j6JfeuN29">Join Our Discord!</a>
             <a class='presidentemail' href="mailto: acmpresident@ua.edu">Email ACM President</a>
             <a class='secretaryemail' href="mailto: acmsecretary@ua.edu">Email ACM Secretary</a>
             <p class='liability'>

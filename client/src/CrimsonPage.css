@@ -45,3 +45,11 @@ section > footer{
     height: 10vh;
     border-top: 3px solid black;
 }
+
+div > iframe{
+    display: block;
+    width: 50vw;
+    height: 40vw;
+    margin: auto;
+    padding: 1.5em 0;
+}

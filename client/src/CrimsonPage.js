@@ -39,8 +39,13 @@ export default function CrimsonPage() {
                 Even if you're not competing, there's still plenty for Crimson Crossover to offer from attendance.
                 We will have representatives from sponsoring companies tabling so you can learn about their career
                 opportunities. In addition, there will be spectator focused competitions with prizes for participatants,
-                and a learning-focused approach to commentating the event.
+                and a learning-focused approach to commentating the event. Be sure to join the mailing list if you'd
+                like more information!
             </p>
+            <div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFORNj1SlbO4I_AQjooCfOOdjzQ2W3ZT99t-2z1aaYR65K4Q/viewform?embedded=true" 
+                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
 
         </section>
         <footer>

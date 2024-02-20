@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bbfc11a7.css",
-    "main.js": "/static/js/main.0484c186.js",
+    "main.js": "/static/js/main.30661cf2.js",
     "static/media/codingpic.png": "/static/media/codingpic.f1f868eb3d4598af8f80.png",
     "static/media/about-us.png": "/static/media/about-us.a6a68f26236e48d0ad51.png",
     "static/media/socialpic.png": "/static/media/socialpic.5f4d8b646306b9f431f0.png",
@@ -20,13 +20,13 @@
     "static/media/html5&css3.png": "/static/media/html5&css3.8f93081a186d497e66e0.png",
     "static/media/ACM Logo.png": "/static/media/ACM Logo.374bc4d96fdec5e2f2cd.png",
     "static/media/CrimsonCrossoverLogo.webp": "/static/media/CrimsonCrossoverLogo.19b90d9efb52747cc263.webp",
-    "static/media/discord-icon.svg": "/static/media/discord-icon.2fad61000aa762270e2aa34e5743846d.svg",
+    "static/media/discord-icon.svg": "/static/media/discord-icon.51833ba01fa72ab661007881debad1cb.svg",
     "index.html": "/index.html",
     "main.bbfc11a7.css.map": "/static/css/main.bbfc11a7.css.map",
-    "main.0484c186.js.map": "/static/js/main.0484c186.js.map"
+    "main.30661cf2.js.map": "/static/js/main.30661cf2.js.map"
   },
   "entrypoints": [
     "static/css/main.bbfc11a7.css",
-    "static/js/main.0484c186.js"
+    "static/js/main.30661cf2.js"
   ]
 }

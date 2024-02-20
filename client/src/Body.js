@@ -147,7 +147,7 @@ export default function Body() {
                 <dt>February 20th</dt>
                 <dd>Professor Research Presentation</dd>
                 <dt>March 5th</dt>
-                <dd>Resume Workshop and Mock Technical Interviews</dd>
+                <dd>Company Talk (feat. Nucor)</dd>
                 <dt>March 19th</dt>
                 <dd>Crimson Defense Mixer</dd>
                 <dt>April 2nd</dt>

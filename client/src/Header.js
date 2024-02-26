@@ -16,7 +16,7 @@ export default function Header() {
                 The University of Alabama Association for Computing Machinery
             </h1>
             <h2 className='header-2'>
-                The #1 Professional Organization for Computer Science Students
+                The #1 Professional Organization for Computer Science Students and host of Crimson Crossover
             </h2>
         </div>
         <div className='logo-container'>

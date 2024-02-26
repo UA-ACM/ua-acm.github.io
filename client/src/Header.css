@@ -1,4 +1,6 @@
-
+.header-container{
+    height: 17vw;
+}
 
 .grid{
     display: grid;
@@ -14,23 +16,37 @@
 .header-2 {
     font-size: 2vw;
     text-align: center;
-    padding-top: 0.5vw;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+}
+.header-3 {
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 .logo {
-    height: 90%;
-    width: 90%;
+    width: 60%;
+    padding-top: 1.5em;
     object-fit: contain;
+    transition: width 2s;
+}
+.logo:hover{
+    width: 70%;
 }
 .logo2 {
     height: 90%;
-    width: 90%;
+    width: 80%;
     object-fit: contain;
     padding-left: 20%;
+    transition: width 2s;
+    padding-top: 1em;
+}
+.logo2:hover{
+    width: 95%;
 }
 .logo-container {
     padding-top: 0px;
     text-align: center;
+    height: 15vw;
 }
 
 @media screen and (max-width: 768px) {
